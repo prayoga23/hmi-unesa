@@ -1,0 +1,81 @@
+.logo-50{
+    width: 50px;
+    height: 50px;
+}
+.bg-foto{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(46, 139, 87, 0.8)),url("../img/hmi32.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: right;
+}
+.bg-secondary .section-title{
+    color: white !important;
+}
+.bg-secondary .section-title:before{
+    background: white !important;
+}
+.bg-secondary .section-title span {
+    background: #133924 !important;
+}
+
+.bg-primary .section-title{
+    color: white !important;
+}
+.bg-primary .section-title:before{
+    background: white !important;
+}
+.bg-primary .section-title span {
+    background: #2E8B57 !important;
+}
+.heading-article{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.pdf-thumb-box-overlay {
+    display: none;
+  }
+.card:hover .pdf-thumb-box-overlay {
+  display: inline;
+  text-align: center;
+  position: absolute;
+  transition: background 0.2s ease, padding 0.8s linear;
+  background-color: rgba(46, 139, 87, 0.8);
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.bg-primary .card:hover .pdf-thumb-box-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #2E8B57;
+}
+.pdf-thumb-box-overlay span {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.kategori-filter > li > a{
+    color: #2E8B57 !important;
+}
+.kategori-filter > li > a:hover{
+    color: white !important;
+}
+.kategori-filter > li.active > a{
+    color: white !important;
+}
+.kategori-filter > li.active > a:hover{
+    color: #2E8B57 !important;
+}
+.logo-kamu{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 0 !important;
+  }
